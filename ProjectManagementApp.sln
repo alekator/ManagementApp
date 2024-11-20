@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35506.116 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementApp", "ProjectManagementApp\ProjectManagementApp.csproj", "{562A6EFF-5271-4CAE-8802-E8FB09BF06B2}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "frontend", "Frontend\frontend.esproj", "{9A51D48D-2EF7-41F8-A6A2-564A0314FF39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{562A6EFF-5271-4CAE-8802-E8FB09BF06B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{562A6EFF-5271-4CAE-8802-E8FB09BF06B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{562A6EFF-5271-4CAE-8802-E8FB09BF06B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A51D48D-2EF7-41F8-A6A2-564A0314FF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A51D48D-2EF7-41F8-A6A2-564A0314FF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A51D48D-2EF7-41F8-A6A2-564A0314FF39}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9A51D48D-2EF7-41F8-A6A2-564A0314FF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A51D48D-2EF7-41F8-A6A2-564A0314FF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A51D48D-2EF7-41F8-A6A2-564A0314FF39}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ProjectManagementApp.Models
+﻿namespace ProjectManagementApp.Models
 {
-    public class Project
+    public class ProjectDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -13,9 +10,7 @@ namespace ProjectManagementApp.Models
         public DateTime EndDate { get; set; }
         public int Priority { get; set; }
         public int ProjectManagerId { get; set; }
-        public Employee ProjectManager { get; set; } // Навигационное свойство
-
-        // Связь многие-ко-многим с сотрудниками
-        public ICollection<ProjectEmployee> ProjectEmployees { get; set; }
+        public List<int> EmployeeIds { get; set; }
     }
+
 }
