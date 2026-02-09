@@ -1,6 +1,6 @@
-# ProjectManagementApp — Full-Stack Project Management Platform
+# ManagementApp — Full-Stack Project Management Platform
 
-**ProjectManagementApp** is a full-stack project management system built with a **.NET backend** and a **modern JavaScript frontend**.
+**ManagementApp** is a full-stack project management system built with a **.NET backend** and a **modern JavaScript frontend**.
 
 The project demonstrates how to design a **business-oriented web application** that manages projects, tasks, documents, and workflows using a clean, scalable architecture.
 
