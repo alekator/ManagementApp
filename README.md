@@ -172,3 +172,4 @@ The focus is on:
 - reliable frontend-backend integration
 
 It provides a solid foundation for extending into a production-ready project management system.
+
